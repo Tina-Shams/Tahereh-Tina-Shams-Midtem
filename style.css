@@ -28,8 +28,12 @@
     }
     
     li a:hover {
-      background-color: red;
+      background-color: white;
+      color: black;
     }
+    li a.active {
+        background-color: red;
+      }
     .headerImage {
         align-items: center;
         border-top: 5px solid white;
@@ -37,6 +41,42 @@
         height:700px;
     
     }
+    /* movie details style*/
+    .about-us{
+        width: 100%;
+        padding: 40px ;
+      }
+      .movieImage{
+        width:  500px;
+        height: 500px;
+        padding: 40px ;
+      
+      }
+      .details{
+        width: 1130px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+      }
+      .paragraph{
+        width: 700px;
+        
+      }
+      .paragraph h5{
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        direction: ltr;
+        color: red;
+        font-weight: bold;
+      }
+      
+      .paragraph p{
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+      
+      }
 
   .column {
     float: left;
